@@ -13,8 +13,7 @@ public class Main {
         Competitor[] competitors = {
                 new Human(),
                 new Robot(),
-                new Cat(),
-                new Cat(500, 4)
+                new Cat()
         };
         Obstacle[] obstacles = {
                 new Cross(750),
