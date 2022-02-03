@@ -1,3 +1,5 @@
+package ru.iegs.p2_l1;
+
 public class Cat {
     Cat cat;
 
@@ -7,7 +9,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat { " +
+        return "ru.iegs.p2_l1.Cat { " +
                 " cat = плавает и бегает " + cat +
                 '}';
     }
